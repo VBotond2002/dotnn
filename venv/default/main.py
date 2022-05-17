@@ -1,11 +1,16 @@
 from turtle import *
-color('red', 'yellow')
-begin_fill()
-while True:
-    forward(200)
-    left(170)
-    if abs(pos()) < 1:
-        break
-end_fill()
-done()
+class NN:
+    def __init__(self,num):
+        self.layer_num=num;
+
+    def __del__(self):
+        pass
+color('red', 'yellow');
+begin_fill();
+forward(100);
+right(90);
+forward(100);
+
+end_fill();
+done();
 
